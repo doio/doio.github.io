@@ -10,6 +10,9 @@ url: https://twofactorauth.org
 repo: https://github.com/2factorauth/twofactorauth
 img: img/logo.png
 
+sass:
+    sass_dir: ./twofactorauth/_scss
+
 exclude:
     - CNAME
     - CONTRIBUTING.md
