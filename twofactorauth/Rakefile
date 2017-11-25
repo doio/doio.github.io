@@ -6,8 +6,8 @@ task default: %w[proof verify rubocop]
 
 task :build do
   config = Jekyll.configuration(
-    'source' => './',
-    'destination' => './_site'
+    'source' => ‘./twofactorauth/’,
+    'destination' => ‘./twofactorauth/_site'
   )
   site = Jekyll::Site.new(config)
   Jekyll::Commands::Build.build site, config
@@ -15,7 +15,7 @@ end
 
 task proof: 'build' do
   HTMLProofer.check_directory(
-    './_site', \
+    ‘./twofactorauth/_site', \
     assume_extension: true, \
     check_html: true, \
     disable_external: true
@@ -24,7 +24,7 @@ end
 
 task proof_external: 'build' do
   HTMLProofer.check_directory(
-    './_site', \
+    ‘./twofactorauth/_site', \
     assume_extension: true, \
     check_html: true, \
     cache: { timeframe: '1w' }, \
