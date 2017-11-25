@@ -1,4 +1,4 @@
-permalink: pretty
+permalink: false
 markdown: kramdown
 
 title: Two Factor Auth List
