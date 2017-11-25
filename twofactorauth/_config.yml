@@ -1,4 +1,4 @@
-permalink: false
+permalink: /twofactorauth/
 markdown: kramdown
 
 title: Two Factor Auth List
@@ -9,9 +9,6 @@ description:
 url: https://doio.github.com/twofactorauth
 repo: https://github.com/2factorauth/twofactorauth
 img: img/logo.png
-
-sass:
-    sass_dir: ./twofactorauth/_sass
 
 exclude:
     - CNAME
