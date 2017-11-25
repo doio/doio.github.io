@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="List of sites with Two Factor Auth support which includes SMS, email, phone calls, hardware, and software.">
+  <meta name="author" content="Josh Davis">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="/img/logo.png"/>
+
+  <meta property="og:title" content="Two Factor Auth List">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="http://localhost:4000/img/logo.png">
+  <meta property="og:url" content="http://localhost:4000">
+  <meta property="og:description" content="">
+
+  <title>Two Factor Auth List</title>
+
+  <!-- Google Fonts should not use SRI hashes as the CSS served dynamically changes depending on browser -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css"
+        integrity="sha384-OWA++c6zXatjdqJdL8H+05IXMubqBVwUdl1Cd9GzMwpjc9lBoy0rSYmTLtj1IDKv" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/notes.css">
+</head>
+
+<body>
+<div class="ui teal inverted menu">
+  <a href="/" class="item">
+    <i class="home icon"></i>
+    Home
+  </a>
+
+  <div class="right menu">
+    <a href="https://github.com/2factorauth/twofactorauth" class="item">
+      <i class="github alternate icon"></i>
+      Contribute
+    </a>
+  </div>
+</div>
+
+<div class="ui center aligned icon header">
+    <i class="circular mobile icon"></i>
+
+    <h2>Two Factor Auth (2FA)</h2>
+</div>
+
+<div class="ui very padded vertical segment teal">
+    <h2 class="ui header">
+        Charles Schwab
+        <div class="sub header">Info regarding Schwab's 2FA</div>
+    </h2>
+    <p>
+        Schwab uses either a physical token 
+        or the Symantec VIP Access smartphone app. You can use the same 
+        VIP Access token with Schwab and with other supported services, 
+        such as Fidelity.
+    </p>
+</div>
+
+<div class="ui very padded vertical segment teal">
+    <h2 class="ui header">
+        How to Setup 2FA for Schwab
+    </h2>
+    <ol class="ui list">
+        <li>Do one of the following:
+            <ol>
+                <li>
+                    Obtain a physical token by calling Schwab Account
+                    Support at +1 800-435-4000.
+                </li>
+                <li>
+                    Install the Symantec VIP Access app for
+                    <a href="https://itunes.apple.com/app/vip-access-for-iphone/id307658513?mt=8">iPhone</a>
+                    or the
+                    <a href="https://play.google.com/store/apps/details?id=com.verisign.mvip.main">Android</a>
+                    version.
+                </li>
+            </ol>
+        </li>
+        <li>
+            Get the Credential ID from the token or app.
+        </li>
+        <li>
+            Call Schwab Account Support at +1 800-435-4000.
+        </li>
+        <li>
+            Ask them to add two-factor authentication to your account.
+            You will need to provide the Credential ID. You will receive 
+            confirmation by e-mail when your account is ready to use 2FA.
+            You may have to wait 1&ndash;2 business days.
+        </li>
+        <li>
+            Log into the Schwab website by appending a tokencode to your 
+            password. For example, if your password is normally 
+            <code>secret</code>, log in with <code>secret123456</code>.
+            You will not see any confirmation that 2FA is enabled, but it is.
+        </li>
+        <li>
+            The next time you log in to the Schwab website with just your 
+            password, Schwab will prompt you for a tokencode.
+        </li>
+    </ol>
+
+    <p>If you are not prompted for a tokencode after completing step 5, 
+    change your password to be 8 characters long and repeat step 5. Once 2FA 
+    is enabled, you can then change your password to be as long as you like.</p>
+</div>
+
+
+<div class="ui divider"></div>
+
+<div class="footer ui basic center aligned segment">
+  See an issue or want to add to this website? Fork it or create an issue on
+  <a href="https://github.com/2factorauth/twofactorauth">GitHub</a>.
+</div>
+
+<div class="ui divider"></div>
+
+<div class="footer ui basic center aligned segment">
+  Made with tea
+  <i class="leaf circular small icon"></i>
+  by
+  <a href="http://joshldavis.com">Josh Davis</a>
+  and love
+  <i class="heart circular small icon"></i>
+  from some awesome
+  <a href="https://github.com/2factorauth/twofactorauth/graphs/contributors">Contributors</a>.
+</div>
+
+<!-- 3rd Party Libraries -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.js"
+        integrity="sha384-PSPYZ405uwFeU9YdtB0IByYECMwUIEGlSjmq1V7MD1zJLZ2VEw+8ko9hcpILlAjZ"
+        crossorigin="anonymous"></script>
+</body>
+</html>

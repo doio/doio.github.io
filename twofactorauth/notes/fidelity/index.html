@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="List of sites with Two Factor Auth support which includes SMS, email, phone calls, hardware, and software.">
+  <meta name="author" content="Josh Davis">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="/img/logo.png"/>
+
+  <meta property="og:title" content="Two Factor Auth List">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="http://localhost:4000/img/logo.png">
+  <meta property="og:url" content="http://localhost:4000">
+  <meta property="og:description" content="">
+
+  <title>Two Factor Auth List</title>
+
+  <!-- Google Fonts should not use SRI hashes as the CSS served dynamically changes depending on browser -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css"
+        integrity="sha384-OWA++c6zXatjdqJdL8H+05IXMubqBVwUdl1Cd9GzMwpjc9lBoy0rSYmTLtj1IDKv" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/notes.css">
+</head>
+
+<body>
+<div class="ui teal inverted menu">
+  <a href="/" class="item">
+    <i class="home icon"></i>
+    Home
+  </a>
+
+  <div class="right menu">
+    <a href="https://github.com/2factorauth/twofactorauth" class="item">
+      <i class="github alternate icon"></i>
+      Contribute
+    </a>
+  </div>
+</div>
+
+<div class="ui center aligned icon header">
+    <i class="circular mobile icon"></i>
+
+    <h2>Two Factor Auth (2FA)</h2>
+</div>
+
+<div class="ui very padded vertical segment teal">
+    <h2 class="ui header">
+        Fidelity Investments
+        <div class="sub header">Info regarding Fidelity's 2FA.</div>
+    </h2>
+    <p>
+        For <em>authentication</em>, Fidelity uses either a physical token provided by Fidelity
+        or the Symantec VIP Access smartphone app.
+        <br>
+        Fidelity only offers 2FA on certain account types. For example, they
+        do not support it for institutional retirement accounts of the kind
+        that might be set up through an employer.
+        <br>
+        It appears there is no information about this service provided
+        online and it must be enabled and managed by phone.
+    </p>
+
+    <p>
+      As of October 2016, Fidelity also offers
+      two-factor <em>authorization</em>, whereby customers may receive an authorization code
+      before performing certain actions.
+
+      According to <a href="https://www.fidelity.com/security/how-two-factor-authentication-works">Fidelity's documentation</a>:
+    </p>
+      <blockquote>
+        You will get a security code to verify your identity when you perform highly
+        sensitive transactions such as setting up new bankwire instructions or changing
+        our contact information.
+      </blockquote>
+
+    <div class="ui info message">
+        <div class="header">
+            Note on Security
+        </div>
+        <p>
+            That this is different than the weaker
+            <a href="https://www.fidelity.com/security/how-fidelity-keeps-you-safe">"Transaction Security"</a>,
+            which only protects certain types of transactions.
+        </p>
+    </div>
+</div>
+
+<div class="ui very padded vertical segment teal">
+    <h2 class="ui header">
+        How to Setup 2FA for Fidelity
+    </h2>
+    <ol class="ui list">
+        <li>Do one of the following:
+            <ol>
+                <li>
+                    Obtain a physical token by calling Fidelity Account
+                    Key Support at +1 800-544-6666.
+                </li>
+                <li>
+                    Install the Symantec VIP Access app for
+                    <a href="https://itunes.apple.com/app/vip-access-for-iphone/id307658513?mt=8">iPhone</a>
+                    or the
+                    <a href="https://play.google.com/store/apps/details?id=com.verisign.mvip.main">Android</a>
+                    version.
+                </li>
+            </ol>
+        </li>
+        <li>
+            Get the Credential ID from the token or app.
+        </li>
+        <li>
+            Call Fidelity Account Key Support at +1 800-544-6666.
+        </li>
+        <li>
+            Ask them to add two-factor authentication to your account.
+            You will need to provide the Credential ID.
+        </li>
+        <li>
+            The next time you log in to the Fidelity website it will
+            prompt you for the temporary security code from the token
+            or the app.
+        </li>
+    </ol>
+</div>
+
+
+<div class="ui divider"></div>
+
+<div class="footer ui basic center aligned segment">
+  See an issue or want to add to this website? Fork it or create an issue on
+  <a href="https://github.com/2factorauth/twofactorauth">GitHub</a>.
+</div>
+
+<div class="ui divider"></div>
+
+<div class="footer ui basic center aligned segment">
+  Made with tea
+  <i class="leaf circular small icon"></i>
+  by
+  <a href="http://joshldavis.com">Josh Davis</a>
+  and love
+  <i class="heart circular small icon"></i>
+  from some awesome
+  <a href="https://github.com/2factorauth/twofactorauth/graphs/contributors">Contributors</a>.
+</div>
+
+<!-- 3rd Party Libraries -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.js"
+        integrity="sha384-PSPYZ405uwFeU9YdtB0IByYECMwUIEGlSjmq1V7MD1zJLZ2VEw+8ko9hcpILlAjZ"
+        crossorigin="anonymous"></script>
+</body>
+</html>
