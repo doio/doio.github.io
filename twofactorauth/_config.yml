@@ -6,12 +6,12 @@ author: Josh Davis
 description:
     List of sites with Two Factor Auth support which includes SMS, email,
     phone calls, hardware, and software.
-url: https://twofactorauth.org
+url: https://doio.github.com/twofactorauth
 repo: https://github.com/2factorauth/twofactorauth
 img: img/logo.png
 
 sass:
-    sass_dir: ./twofactorauth/_scss
+    sass_dir: ./twofactorauth/_sass
 
 exclude:
     - CNAME
