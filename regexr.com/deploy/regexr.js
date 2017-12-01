@@ -40293,7 +40293,7 @@ var regexr = function() {
                             this
                             ._worker =
                             new Worker(
-                                "../assets/workers/RegExWorker.js"
+                                "/assets/workers/RegExWorker.js"
                             );
                         o
                             .onmessage =
