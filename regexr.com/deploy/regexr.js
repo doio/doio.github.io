@@ -27492,7 +27492,7 @@ var regexr = function() {
         "regexr.com", b.url = b.host +
         "/server/api.php";
     var w = {};
-    w.GA_ID = "UA-3579542-6", w.page =
+    w.GA_ID = "UA-35-6", w.page =
         function(e) {
             gtag("config", w.GA_ID, {
                 page_path: "/" +
