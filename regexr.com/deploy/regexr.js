@@ -27495,7 +27495,7 @@ var regexr = function() {
     w.GA_ID = "UA-35-6", w.page =
         function(e) {
             gtag("config", w.GA_ID, {
-                page_path: "/" +
+                page_path: "regexr.com/" +
                     e
             })
         }, w.event = function(e, t,
@@ -40293,7 +40293,7 @@ var regexr = function() {
                             this
                             ._worker =
                             new Worker(
-                                "./assets/workers/RegExWorker.js"
+                                "assets/workers/RegExWorker.js"
                             );
                         o
                             .onmessage =
