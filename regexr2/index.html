@@ -373,7 +373,7 @@
                 t = i.prototype = {};
             t._ctaAnimation = null, t.docView = null, t.libView = null, t.init = function() {
                 if ($.isSupported()) {
-                    ES6Promise.polyfill(), RegExrShared.BrowserHistory.init(), RegExrShared.BrowserHistory.on("change", this.handleHistoryChange, this), "regexr.com" != document.location.host && "www.regexr.com" != document.location.host && $.removeClass($.el(".beta-banner"), "hidden"), RegExrShared.List.spinner = $.el(".spinner");
+                    ES6Promise.polyfill(), RegExrShared.BrowserHistory.init(), RegExrShared.BrowserHistory.on("change", this.handleHistoryChange, this), "regexr.com" != document.location.host && "doio.github.io/regexr2/" != document.location.host && $.removeClass($.el(".beta-banner"), "hidden"), RegExrShared.List.spinner = $.el(".spinner");
                     var e = new RegExrShared.DocView($.el("#docview"));
                     this.docView = e;
                     var i = $.el("#docview .default");
