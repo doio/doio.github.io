@@ -1,11 +1,11 @@
 CACHE MANIFEST
-#ver:2018-3-27 18:17:00
+#ver:2018-4-19 17:24:01
 #plugin:4.9.0
 
 CACHE:
-/stackedit/icons-2e8d166bafb750685078f5ddd44d30f5/favicon.ico
-/stackedit/icons-2e8d166bafb750685078f5ddd44d30f5/manifest.json
-/stackedit/icons-2e8d166bafb750685078f5ddd44d30f5/manifest.webapp
+/stackedit/icons-c75a9472175cc17394ba6428d867fbcf/favicon.ico
+/stackedit/icons-c75a9472175cc17394ba6428d867fbcf/manifest.json
+/stackedit/icons-c75a9472175cc17394ba6428d867fbcf/manifest.webapp
 /stackedit/055bfb9ab79653ee7258.worker.js
 /stackedit/static/fonts/RobotoMono-Bold.819f3b2.woff
 /stackedit/static/fonts/RobotoMono-Regular.0b6a547.woff
@@ -13,22 +13,21 @@ CACHE:
 /stackedit/static/fonts/lato-black.f80bda6.woff
 /stackedit/static/fonts/lato-normal-italic.f28f2d6.woff
 /stackedit/static/fonts/lato-normal.27bd77b.woff
-/stackedit/static/img/logo.b8e33cd.svg
-/stackedit/static/js/vendor.c490de8bae075b840486.js
-/stackedit/static/js/app.5dae36e541660069ce14.js
-/stackedit/static/js/manifest.68c29c91bbb9f6c4cecf.js
-/stackedit/static/css/app.047832cc6ab6628d85058f185a9f4261.css
+/stackedit/static/js/vendor.1943b7def54cdcabc895.js
+/stackedit/static/js/app.39a4ec4e3e0cbe7c3448.js
+/stackedit/static/js/manifest.504a6e19a0cd0c9b4cd6.js
+/stackedit/static/css/app.84b032b4b1c5a4f0d141b2685dba5af7.css
+/stackedit/static/landing/discussion.png
 /stackedit/static/landing/favicon.ico
 /stackedit/static/landing/gfm.png
-/stackedit/static/landing/discussion.png
 /stackedit/static/landing/katex.gif
 /stackedit/static/landing/mermaid.gif
+/stackedit/static/landing/scroll-sync.gif
 /stackedit/static/landing/navigation-bar.png
 /stackedit/static/landing/logo.svg
-/stackedit/static/landing/providers.png
-/stackedit/static/landing/smart-layout.png
 /stackedit/static/landing/syntax-highlighting.gif
-/stackedit/static/landing/scroll-sync.gif
+/stackedit/static/landing/smart-layout.png
+/stackedit/static/landing/providers.png
 /stackedit/static/sitemap.xml
 /stackedit/static/landing/workspace.png
 /
